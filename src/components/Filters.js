@@ -4,10 +4,10 @@ export default class Filters extends React.Component {
   render() {
         console.log(this.refs)
     return (
-      <div className="ui form">
+      <div className="ui form dropdown">
         <h3>Animal type</h3>
         <div className="field">
-          <select name="type" ref="filterform" id="type">
+          <select name="type" ref="filterform" id="type" style={{width:"100%"}}>
             <option value="all">All</option>
             <option value="sortname">Sort Name</option>
             <option value="sortweight">Sort Weight</option>
